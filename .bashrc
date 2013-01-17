@@ -7,18 +7,11 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-alias r='fc -s'
-
 # Miscellaneous stuff
-alias motd='cat /etc/motd'
-alias mk='make'
-alias mc='make clean'
-alias h='fc -l'
 alias m=less
-alias f=finger
 alias cls=clear
 
-alias e='$EDITOR'
+alias e='$HOME/bin/gvim'
 
 # Nice stuff
 alias mv='/bin/mv -i'
@@ -34,10 +27,5 @@ alias lg='/bin/ls -aglh'
 alias lr='/bin/ls -lagLhrR'
 
 # Job control
-alias k1='kill -9 %1'
-alias k2='kill -9 %2'
-alias k3='kill -9 %3'
-alias kl='kill -9'
-alias stop='kill -17'
 alias j='jobs -l'
 
