@@ -16,11 +16,11 @@ export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.3
 export LD_LIBRARY_PATH=$JAVA_HOME/jre/lib/i386/server:$LD_LIBRARY_PATH
 
 # GHC/Cabal
-export PATH=$HOME/bin:$HOME/.cabal/bin:$PATH
+export PATH=$HOME/bin:$HOME/.cabal/bin:/usr/local/bin:$PATH
 # export PATH=$HOME/bin/bin:$HOME/bin:$HOME/.cabal/bin:$PATH
 
-export EDITOR=gvim
-export VISUAL="$EDITOR"
+# export EDITOR=gvim
+# export VISUAL="$EDITOR"
 
 export USERNAME="Andy Adams-Moran"
 export ORGANIZATION="FP Complete"
